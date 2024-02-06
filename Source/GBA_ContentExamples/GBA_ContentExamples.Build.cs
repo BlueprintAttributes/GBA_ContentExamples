@@ -19,7 +19,7 @@ public class GBA_ContentExamples : ModuleRules
 			"GameplayTags",
 			"GameplayTasks",
 			
-			// "BlueprintAttributes"
+			"BlueprintAttributes"
 		});
 
 		PrivateDependencyModuleNames.AddRange(new string[]
