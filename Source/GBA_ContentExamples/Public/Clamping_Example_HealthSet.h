@@ -22,9 +22,8 @@ class GBA_CONTENTEXAMPLES_API UClamping_Example_HealthSet : public UGBAAttribute
 {
 	GENERATED_BODY()
 public:
-	/** Please add a variable description dude! */
-	UPROPERTY(BlueprintReadOnly, Category = "Default", ReplicatedUsing = OnRep_Health)
-	FGameplayAttributeData Health = 0.00f;
+	UPROPERTY(BlueprintReadOnly, Category = "Default", ReplicatedUsing = OnRep_Health, SaveGame)
+	FGameplayAttributeData Health = 0.f;
 	ATTRIBUTE_ACCESSORS(UClamping_Example_HealthSet, Health)
 
 	/** Please add a variable description dude! */

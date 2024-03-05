@@ -2,7 +2,7 @@
 	"FileVersion": 3,
 	"EngineAssociation": "5.1",
 	"Category": "",
-	"Description": "",
+	"Description": "Content examples project for Blueprint Attributes plugin",
 	"Modules": [
 		{
 			"Name": "GBA_ContentExamples",
@@ -12,20 +12,9 @@
 	],
 	"Plugins": [
 		{
-			"Name": "ModelingToolsEditorMode",
+			"Name": "BlueprintAttributes",
 			"Enabled": true,
-			"TargetAllowList": [
-				"Editor"
-			]
-		},
-		{
-			"Name": "GASCompanionTests",
-			"Enabled": false
-		},
-		{
-			"Name": "GASCompanion",
-			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/d83c6f34c3fb4b7092dde195c37c7413"
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/..."
 		}
 	]
 }
