@@ -2,7 +2,7 @@
 	"FileVersion": 3,
 	"EngineAssociation": "5.1",
 	"Category": "",
-	"Description": "Content examples project for Blueprint Attributes plugin (0.0.32)",
+	"Description": "Content examples project for Blueprint Attributes plugin (0.0.33)",
 	"Modules": [
 		{
 			"Name": "GBA_ContentExamples",

@@ -11,7 +11,7 @@ on:
       - '*.uproject'
 
 concurrency:
-  group: game-build-${{ github.head_ref }}
+  group: game-build-${{ github.ref }}
   cancel-in-progress: true
 
 jobs:
