@@ -18,4 +18,5 @@ jobs:
       platform: Windows
       build_configuration: Development
       plugin_repository: BlueprintAttributes/BlueprintAttributes
+      plugin_path: Plugins/BlueprintAttributes
     secrets: inherit
