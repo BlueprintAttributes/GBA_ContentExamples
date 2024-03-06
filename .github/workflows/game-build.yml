@@ -3,6 +3,7 @@ name: (Windows) Game Packaged Build
 on:
   push:
     branches: main
+    paths:
       - 'Config/**'
       - 'Content/**'
       - 'Plugins/**'
