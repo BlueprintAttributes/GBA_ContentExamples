@@ -1,0 +1,19 @@
+name: (Windows) Build Plugin
+
+on:
+  push:
+    branches: main
+      - 'Config/**'
+      - 'Content/**'
+      - 'Plugins/**'
+      - 'Source/**'
+      - '*.uproject'
+
+jobs:
+  compile:
+    uses: BlueprintAttributes/workflows/.github/workflows/game-build.yml@main
+    with:
+      ue_versions: "['5.3']"
+      platform: Windows
+      build_configuration: Development
+    secrets: inherit
