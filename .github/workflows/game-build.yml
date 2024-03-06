@@ -17,4 +17,5 @@ jobs:
       ue_versions: "['5.3']"
       platform: Windows
       build_configuration: Development
+      plugin_repository: ${{ github.repository }}
     secrets: inherit
