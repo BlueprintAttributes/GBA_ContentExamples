@@ -10,6 +10,10 @@ on:
       - 'Source/**'
       - '*.uproject'
 
+concurrency:
+  group: game-build-${{ github.head_ref }}
+  cancel-in-progress: true
+
 jobs:
   compile:
     uses: BlueprintAttributes/workflows/.github/workflows/game-build.yml@main
