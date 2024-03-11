@@ -1,8 +1,10 @@
 # Blueprint Attributes - Content Examples project
 
-Plugin adding full BP support for GAS Attribute Sets
+Plugin adding full BP support for GAS Attribute Sets.
 
 https://blueprintattributes.github.io
+
+`GBA_` is a prefix for Gameplay Blueprint Attributes, and used as a naming convention to prefix BP AttributeSets asset names across the project.
 
 ## Engine compatibility
 
