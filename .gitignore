@@ -78,9 +78,12 @@ DerivedDataCache/*
 *.sln.DotSettings.user
 .vsconfig
 
-Content/Developers
 Plugins/Developer
 surdocs/
 local/
 PluginsNotActive/
 dist/
+
+# Ignore Dev folder
+Content/Developers/*
+!Content/Developers/Videos
