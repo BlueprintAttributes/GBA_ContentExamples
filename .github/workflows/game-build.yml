@@ -9,6 +9,14 @@ on:
       - 'Plugins/**'
       - 'Source/**'
       - '*.uproject'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'Config/**'
+      - 'Content/**'
+      - 'Plugins/**'
+      - 'Source/**'
+      - '*.uproject'
 
 concurrency:
   group: game-build-${{ github.ref }}
