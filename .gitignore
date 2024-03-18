@@ -87,3 +87,7 @@ dist/
 # Ignore Dev folder
 Content/Developers/*
 !Content/Developers/Videos
+
+# To keep it a BP only project, while still being able to iterate on the plugins with an IDE for local dev
+Source/
+GBA_ContentExamples.uproject
